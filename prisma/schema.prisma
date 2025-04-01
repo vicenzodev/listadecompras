@@ -17,13 +17,13 @@ model List{
   id Int @id @default(autoincrement())
   name String
 
-  Item Item[]
+  items Item[]
 }
 
 model Item{
   id Int @id @default(autoincrement())
-  item String
-  marcado Boolean
+  name String
+  check Boolean
   list List @relation(fields: [fk_list],references: [id])
-  fk_list Int @unique
+  fk_list Int
 } 

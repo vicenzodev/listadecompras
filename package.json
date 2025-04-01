@@ -4,7 +4,7 @@
   "description": "Lista de compras que será utilizada nas compras mensais de supermercado, essa lista estará na nuvem salvo em meu servidor para não haver esquecimento.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"npx tsc",
     "dev": "nodemon --exec ts-node --swc ./index.ts"
   },
   "repository": {
@@ -28,6 +28,7 @@
     "@prisma/client": "^6.5.0",
     "express": "^5.1.0",
     "nodemon": "^3.1.9",
+    "router": "^2.2.0",
     "swc": "^1.0.11",
     "ts-node": "^10.9.2"
   }
