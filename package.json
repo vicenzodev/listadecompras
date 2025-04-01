@@ -4,7 +4,8 @@
   "description": "Lista de compras que será utilizada nas compras mensais de supermercado, essa lista estará na nuvem salvo em meu servidor para não haver esquecimento.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec ts-node --swc ./index.ts"
   },
   "repository": {
     "type": "git",
@@ -20,9 +21,14 @@
   "devDependencies": {
     "@types/express": "^5.0.1",
     "@types/node": "^22.13.16",
+    "prisma": "^6.5.0",
     "typescript": "^5.8.2"
   },
   "dependencies": {
-    "express": "^5.1.0"
+    "@prisma/client": "^6.5.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.9",
+    "swc": "^1.0.11",
+    "ts-node": "^10.9.2"
   }
 }
