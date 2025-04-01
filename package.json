@@ -1,0 +1,28 @@
+{
+  "name": "listadecompras",
+  "version": "1.0.0",
+  "description": "Lista de compras que será utilizada nas compras mensais de supermercado, essa lista estará na nuvem salvo em meu servidor para não haver esquecimento.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicenzodev/listadecompras.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vicenzodev/listadecompras/issues"
+  },
+  "homepage": "https://github.com/vicenzodev/listadecompras#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.13.16",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
